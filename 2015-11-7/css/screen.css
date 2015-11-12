@@ -4,9 +4,34 @@
 }
 
 .main {
-	width: 600px;
+	float: right;
+	width: 70%;
+	color: white;
+	padding-top: 2%;
+	padding-right: 2%;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3",serif;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.main h1, p {
+	display:block;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.8;
+	opacity:0.8;
 }
 
 .left {
+	float: left;
 	flex: 1;
+}
+
+body {
+	font-size: 100%;
+	background: url(https://a.desktopprassets.com/wallpapers/afa9086975b84d2d20c612cbc99df5db3f57acbd/preview_________9850.jpg);
+	background-attachment:fixed;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+    background-size:100% 100%; 
 }
