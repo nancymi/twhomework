@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	flex-flow: row;
+}
+
+.main {
+	width: 600px;
+}
+
+.left {
+	flex: 1;
+}
