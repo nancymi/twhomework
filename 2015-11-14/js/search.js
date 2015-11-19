@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	var bookmarks;
+	var bookmarkUrl = "https://raw.githubusercontent.com/nancymi/twhomework/gh-pages/2015-11-14/sources/bookmarks.json";
 
 	startConfiguration();
 	startInitiation();
@@ -7,7 +8,7 @@ $(document).ready(function() {
 
 	function startConfiguration() {
 		$.ajaxSettings.async = false;
-		$.getJSON("https://raw.githubusercontent.com/nancymi/twhomework/gh-pages/2015-11-14/sources/bookmarks.json", function(data) {
+		$.getJSON(bookmarkUrl, function(data) {
 			bookmarks = data;
 		});
 	}
