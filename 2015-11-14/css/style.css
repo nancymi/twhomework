@@ -1,0 +1,36 @@
+body {
+	font-family:"Noto Sans CJK SC", "Source Han Sans CN";
+	text-align: center;
+	margin-left: 3em;
+	margin-right: 3em;
+	font-size: 30px;
+}
+
+.search {
+	background-color: #F5F5F5;
+	height: 100px;
+}
+
+.search input {
+	width: 1000px;
+	height: 40px;
+	margin: 30px;
+}
+
+.line {
+	border: 1px dashed #CCCCCC;	
+}
+
+.content {
+	
+}
+
+.date {
+	text-align: right;
+	font-style: oblique;
+	color: #F5F5F5;
+}
+
+.bookmark {
+	text-align: left;
+}
