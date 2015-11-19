@@ -33,7 +33,7 @@ $(document).ready(function() {
 
 				var bookmarkOnFilterStr = bookmarksOnFilter.map(function(bookmarkOnFilter) {
 					var highlightBookmarkOnFilter = bookmarkOnFilter.title.replace(
-						keywordRE, '<span style="background-color:#F24A98">'+ keyword +'</span>');
+						keywordRE, '<span style="background-color:#F24A98">$&</span>');
 					return getBookmarkStr(highlightBookmarkOnFilter, bookmarkOnFilter.created);
 				});
 
